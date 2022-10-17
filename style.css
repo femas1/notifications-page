@@ -24,5 +24,31 @@ body {
 .container {
     background-color: hsl(0, 0%, 100%);
     height: 80rem;
-    width: 134rem;
+    width: 70rem;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.container__header__new {
+    height: 3rem;
+    width: 3.5rem;
+    font-weight: 800;
+    background-color: hsl(219, 85%, 26%);
+    color: #fff;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__header__mark {
+    margin-left: auto;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
 }
