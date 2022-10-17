@@ -70,6 +70,19 @@ body {
     display: flex;
 }
 
+/* FIX POSITIONING OF DOT IN FLEXBOX */
+
+.notification-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 1rem;
+    background-color: hsl(1, 90%, 64%);
+    cursor: pointer;
+    margin-left: auto;
+    transform: translate(15px, -14px);
+
+}
+
 .container__notification__content__time {
     color: hsl(219, 14%, 63%);
 }
@@ -84,4 +97,8 @@ body {
 
 .pm img{
     width: 45px;
+}
+
+.hidden {
+    display: none;
 }
