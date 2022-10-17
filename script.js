@@ -1,9 +1,17 @@
 'use strict';
 
-const notificationDot = document.querySelectorAll('.notificationDot');
+const notificationDots = document.querySelectorAll('.notificationDot');
+const markRead = document.querySelector('.container__header__mark');
+const notificationNum = document.querySelector('.number');
 
-notificationDot.forEach((dot)=> {
+
+notificationDots.forEach((dot)=> {
     dot.addEventListener('click', () => {
         dot.classList.add('hidden')
     })
+})
+
+markRead.addEventListener('click', () => {
+    notificationDots.forEach(notification => notification.classList.add('hidden'));
+    notificationNum.innerText = 0;
 })
