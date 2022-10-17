@@ -59,6 +59,7 @@ body {
 
 .container__notification__photo {
     height: 45px;
+    margin-right: 2rem;
 }
 
 .container__notification__content {
@@ -70,7 +71,7 @@ body {
 }
 
 .container__notification__content__time {
-    
+    color: hsl(219, 14%, 63%);
 }
 
 .user-name {
@@ -82,5 +83,5 @@ body {
 }
 
 .pm img{
-    width: 50px;
+    width: 45px;
 }
