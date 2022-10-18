@@ -53,6 +53,10 @@ body {
     cursor: pointer;
 }
 
+.container__header__mark:hover {
+    color:hsl(219, 85%, 26%);
+}
+
 .container__notification {
     padding: 0 2rem;
 }
@@ -87,8 +91,28 @@ body {
     color: hsl(219, 14%, 63%);
 }
 
+.container__notification__content.pm {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container__notification__content__message {
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    margin: 1.5rem 5rem 0 6rem;
+}
+.container__notification__content__message:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+
 .user-name {
     font-weight: 900;
+}
+
+.user-name:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
 }
 
 .group-name {
